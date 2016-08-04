@@ -1,0 +1,62 @@
+h1{
+	font-size : 20px;
+	font-family: "Segoe Script";
+
+}
+
+.style{
+	color:#EC4067 ;
+}
+.active{
+	background-color:#4CAF50;
+	color:red;
+}
+body{
+	margin:auto;
+}
+
+.circle{
+	width:150px;
+	height:150px;
+	background:#D64933;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+	
+	position:relative;
+	font-size:15px;
+	float:left;
+ 		display :inline ;
+ 		padding:10px 30px;
+ 		display :block; 
+ 		
+ 		
+	
+}
+.circle:hover{
+	transform:scale(1.1,1.1);
+}
+
+
+
+
+
+
+div{
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	padding:10px 30px;
+	
+}
+.third{
+	list-style-type :none ; 
+ 		/*removes the bullets*/ 
+ 	margin :0; 
+ 		
+ 		 /*both removes the browser's default settings*/ 
+ 	background-color :#C179B9;
+ 	text-align :center; 
+ 	overflow: hidden; 
+}
