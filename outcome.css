@@ -1,23 +1,31 @@
-h1{
-	font-size : 20px;
-	font-family: "Segoe Script";
-
+h1 {
+	color: black;
+	text-align:center;
+	font-size: 60px;
+	font-family:verdana;
+	border: 2pt solid #000000;
+	background-color: #F7F7FF;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-left: 10px;
+	padding-right:10px;
+	font-style: bold;
 }
 
 .style{
-	color:#EC4067 ;
+	color: black ;
 	font-size:25px;
-	font-family:"Verdana";
+	font-family:verdana;
 
 }
-.active{
-	background-color:#4CAF50;
-	color:#9FB8AD;
+
+a:link{color:black; background-color: transparent; text-decoration: none;}
+a:visited{color:black; background-color: transparent; text-decoration: none;}
 
 }
 body{
 	margin:auto;
-	background-color: #D7E2E1;
+	background-color: #D0e2df;
 }
 	
 
@@ -48,9 +56,14 @@ body{
 
 
 .textbox{
-	background-color:#D0E2DF;
-	font-size:20px;
+	font-size:15px;
 	font-family:Verdana;
+	margin: 50px;
+	color: black;
+	padding: 40px;
+	background-color: #F7F7FF;
+	border: 2pt solid #000000;
+
 
 }
 
@@ -61,28 +74,48 @@ body{
  	margin :0; 
  		
  		 /*both removes the browser's default settings*/ 
- 	background-color :#D0E2DF;
+ 	background-color :#D0e2df;
  	text-align :center; 
  	overflow: hidden; 
 }
-.rectangle {
-	
 
-	background: #F7F7FF;
-	font-size:60px;
-	padding:10px 40px;
-	color:#EC4067 ;
-	font-family:"Verdana";
-	text-align:center;
-	border: 2pt solid #000000;
-	margin-left: 250px;
-	margin-right: 250px;
-	padding-left: 10px;
-	padding-right:10px;
-	font-style:bold;
 
 }
 .impstuff{
 	color:red;
+} 
 
-}
+.first {
+ 		list-style-type :none ; 
+ 		/*removes the bullets*/ 
+ 		
+ 		
+ 		 /*both removes the browser's default settings*/ 
+ 		background-color:#FFFFFF;
+ 		text-align :center; 
+ 		overflow: hidden;
+ 		border:2px solid #000000; 
+ 		padding-bottom:30px;
+ 		margin-top: 0px;
+ 		margin-left:0px;
+ 		margin-right:0px;
+ 		} 
+ 	.second{ 
+ 		
+ 		display :inline ;
+ 		padding:30px 30px;
+ 		font-color:#000000;
+ 		font-size:28px;
+ 		font-family:verdana;
+ 	}
+
+ 	.active{
+ 		background-color:#D7E2E1;
+ 		color:black;
+ 		border:1pt solid black;
+ 	}
+ 	li:hover {
+ 		background-color:#F7F7FF; border:2pt solid #000000;
+ 	}
+ 		
+ 	}
