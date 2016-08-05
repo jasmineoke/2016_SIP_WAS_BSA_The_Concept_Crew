@@ -6,7 +6,7 @@ h1{
 
 .style{
 	color:#EC4067 ;
-	font-size:40px;
+	font-size:25px;
 	font-family:"Verdana";
 
 }
@@ -17,23 +17,27 @@ h1{
 }
 body{
 	margin:auto;
+	background-color: #D7E2E1;
 }
 	
 
 .circle{
 	width:200px;
 	height:200px;
-	background:#D64933;
+	background:#9FB8AD;
 	-moz-border-radius:100%;
 	-webkit-border-radius:100%;
 	border-radius:50%;
 	margin-right: 100px;
 	position:relative;
-	font-size:15px;
+	font-size:20px;
 	float:left;
  	display :inline ;
  	padding:10px 30px;
  	display :block; 
+ 	text-align: center;
+
+
  	
 	
 }
@@ -41,12 +45,13 @@ body{
 	transform:scale(1.1,1.1);
 }
 
-div{
-	background-color:;
-}
+
 
 .textbox{
-	background-color:#D7E201;
+	background-color:#D0E2DF;
+	font-size:20px;
+	font-family:Verdana;
+
 }
 
 
@@ -60,6 +65,24 @@ div{
  	text-align :center; 
  	overflow: hidden; 
 }
-.normal{
+.rectangle {
+	
+
+	background: #F7F7FF;
+	font-size:60px;
+	padding:10px 40px;
+	color:#EC4067 ;
+	font-family:"Verdana";
+	text-align:center;
+	border: 2pt solid #000000;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-left: 10px;
+	padding-right:10px;
+	font-style:bold;
+
+}
+.impstuff{
+	color:red;
 
 }
