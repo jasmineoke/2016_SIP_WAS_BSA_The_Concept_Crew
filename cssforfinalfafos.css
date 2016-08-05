@@ -20,9 +20,11 @@ h1 {
 
 p {
 	color: black;
-	text-align:center;
-	font-size:30px;
+	text-align:left;
+	font-size:20px;
 	font-family:verdana;
+	margin-right:50px;
+	margin-left:50px;
 	}
 
 ul { 
@@ -52,3 +54,11 @@ li:hover {background-color: #F7F7FF;
 }
 
 
+.texthead {
+
+	color: #000000;
+	font-size: 20px;
+	font-family:verdana;
+	font-style: bold;
+
+}
