@@ -27,7 +27,8 @@ body{
 	margin:auto;
 	background-color: #D0e2df;
 }
-	
+p {
+	line-height: 2em;}	
 
 .circle{
 	width:200px;
@@ -56,13 +57,13 @@ body{
 
 
 .textbox{
-	font-size:15px;
+	font-size:18px;
 	font-family:Verdana;
-	margin: 50px;
+	
 	color: black;
 	padding: 40px;
 	background-color: #F7F7FF;
-	border: 2pt solid #000000;
+	
 
 
 }
@@ -118,4 +119,4 @@ body{
  		background-color:#F7F7FF; border:2pt solid #000000;
  	}
  		
- 	}
+ 	
