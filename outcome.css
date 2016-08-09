@@ -4,18 +4,19 @@ h1 {
 	font-size: 60px;
 	font-family:verdana;
 	border: 2pt solid #000000;
-	background-color: #F7F7FF;
+	background-color: #ACC18A;
 	margin-left: 250px;
 	margin-right: 250px;
 	padding-left: 10px;
 	padding-right:10px;
-	font-weight: 900;
-}
+	font-weight:900;
+	}
 
 .style{
 	color: black ;
-	font-size:25px;
+	font-size:30px;
 	font-family:verdana;
+	font-weight:300;
 
 }
 
@@ -62,7 +63,7 @@ p {
 	
 	color: black;
 	padding: 40px;
-	background-color: #F7F7FF;
+	background-color: #D0E2DF;
 	
 
 
@@ -75,11 +76,17 @@ p {
  	margin :0; 
  		
  		 /*both removes the browser's default settings*/ 
- 	background-color :#D0e2df;
+ 	
  	text-align :center; 
  	overflow: hidden; 
 }
 
+p{
+	line-height:2em;
+	color: black;
+	font-size:30px;
+	font-family:verdana;
+	font-weight:300;
 
 }
 .impstuff{
@@ -119,4 +126,17 @@ p {
  		background-color:#F7F7FF; border:2pt solid #000000;
  	}
  		
- 	
+.yes{
+	font-style:bold;
+	font-size:30px;
+
+} 
+.greenbox{
+	background-color:#ACC18A;
+	border:1pt solid black;
+
+}	
+a {
+	text-decoration: none;
+	color: black;
+}
