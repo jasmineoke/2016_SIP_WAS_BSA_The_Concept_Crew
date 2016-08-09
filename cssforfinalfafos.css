@@ -1,15 +1,13 @@
 body {background-color: #D7E2E1}
 
-h7 {
-	
-}
+
 
 h1 {
 	color: black;
 	text-align:center;
 	font-size: 60px;
 	font-family:verdana;
-	font-style: bold; 
+	
 	border: 2pt solid #000000;
 	background-color: #ACC18A;
 	margin-left: 250px;
@@ -25,11 +23,17 @@ p {
 	font-family:verdana;
 	margin-right:50px;
 	margin-left:50px; 
-	border: 2pt solid #000000;
-	background-color: #ACC18A;
 	padding: 25px;
 	}
 
+h2 {
+
+	font-size: 25pt;
+	text-align: center;
+	font-family:verdana;
+	font-style: bold;
+	
+}
 ul { 
     border: 2px solid #000000;
     text-align:center;
@@ -61,5 +65,14 @@ li:hover {background-color: #F7F7FF;
 	font-size: 20px;
 	font-family:verdana;
 	font-style: bold;
+	margin-right:50px;
+	margin-left:50px; 
+	padding: 25px;
 
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
