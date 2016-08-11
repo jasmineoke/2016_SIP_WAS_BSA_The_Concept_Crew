@@ -1,0 +1,142 @@
+h1 {
+	color: black;
+	text-align:center;
+	font-size: 60px;
+	font-family:verdana;
+	border: 2pt solid #000000;
+	background-color: #ACC18A;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-left: 10px;
+	padding-right:10px;
+	font-weight:900;
+	}
+
+.style{
+	color: black ;
+	font-size:30px;
+	font-family:verdana;
+	font-weight:300;
+
+}
+
+a:link{color:black; background-color: transparent; text-decoration: none;}
+a:visited{color:black; background-color: transparent; text-decoration: none;}
+
+}
+body{
+	margin:auto;
+	background-color: #D0e2df;
+}
+p {
+	line-height: 2em;}	
+
+.circle{
+	width:200px;
+	height:200px;
+	background:#9FB8AD;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:50%;
+	margin-right: 100px;
+	position:relative;
+	font-size:20px;
+	float:left;
+ 	display :inline ;
+ 	padding:10px 30px;
+ 	display :block; 
+ 	text-align: center;
+
+
+ 	
+	
+}
+.circle:hover{
+	transform:scale(1.1,1.1);
+}
+
+
+
+.textbox{
+	font-size:18px;
+	font-family:Verdana;
+	
+	color: black;
+	padding: 40px;
+	background-color: #D0E2DF;
+	
+
+
+}
+
+
+.third{
+	list-style-type :none ; 
+ 		/*removes the bullets*/ 
+ 	margin :0; 
+ 		
+ 		 /*both removes the browser's default settings*/ 
+ 	
+ 	text-align :center; 
+ 	overflow: hidden; 
+}
+
+p{
+	line-height:2em;
+	color: black;
+	font-size:30px;
+	font-family:verdana;
+	font-weight:300;
+
+}
+.impstuff{
+	color:red;
+} 
+
+.first {
+ 		list-style-type :none ; 
+ 		/*removes the bullets*/ 
+ 		
+ 		
+ 		 /*both removes the browser's default settings*/ 
+ 		background-color:#FFFFFF;
+ 		text-align :center; 
+ 		overflow: hidden;
+ 		border:2px solid #000000; 
+ 		padding-bottom:30px;
+ 		margin-top: 0px;
+ 		margin-left:0px;
+ 		margin-right:0px;
+ 		} 
+ 	.second{ 
+ 		
+ 		display :inline ;
+ 		padding:30px 30px;
+ 		font-color:#000000;
+ 		font-size:28px;
+ 		font-family:verdana;
+ 	}
+
+ 	.active{
+ 		background-color:#D7E2E1;
+ 		color:black;
+ 		border:1pt solid black;
+ 	}
+ 	li:hover {
+ 		background-color:#F7F7FF; border:2pt solid #000000;
+ 	}
+ 		
+.yes{
+	font-style:bold;
+	font-size:30px;
+
+} 
+.greenbox{
+	background-color:#ACC18A;
+	border:1pt solid black;
+
+}	
+a {
+	text-decoration: none;
+	color: black;
+}
